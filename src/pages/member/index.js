@@ -1,5 +1,3 @@
-import { withAuthenticator } from "@aws-amplify/ui-react"
-
 export function getServerSideProps() {
 	const renderedAt = new Date()
 	const formattedBuildDate = renderedAt.toLocaleDateString("en-US", {
@@ -26,5 +24,3 @@ function Home({ signOut, user, renderedAt }) {
 		</div>
 	)
 }
-
-export default withAuthenticator(Home)
