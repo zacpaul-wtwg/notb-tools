@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-notbtools-dev-151303-authRole",
+      "UnauthRoleArn": "arn:aws:iam::523880614078:role/amplify-notbtools-dev-151303-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::523880614078:role/amplify-notbtools-dev-151303-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-notbtools-dev-151303-deployment",
+      "UnauthRoleName": "amplify-notbtools-dev-151303-unauthRole",
+      "StackName": "amplify-notbtools-dev-151303",
+      "StackId": "arn:aws:cloudformation:us-east-1:523880614078:stack/amplify-notbtools-dev-151303/3d9fb900-4769-11ee-84cf-0e9e27590d71",
+      "AmplifyAppId": "d3vs0rk6sta96a"
+    },
+    "categories": {
+      "auth": {
+        "notbtools2796afec": {}
+      }
+    }
+  }
+}
