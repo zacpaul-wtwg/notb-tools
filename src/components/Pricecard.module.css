@@ -1,0 +1,117 @@
+/* @font-face {
+  font-family: 'Langdon';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Langdon'), url('Langdon.woff') format('woff');
+} */
+
+@page { 
+  border: thin solid black;
+  margin: 0; 
+  size: 5.5in 3.5in;
+}
+
+.card{
+  display: flex;
+}
+.container-left {
+  display: flex;
+  justify-content: left;
+}
+
+.container-right {
+  font-family: "Langdon";
+  font-size: 12pt;
+  margin-left: .15in;
+  width:2in;
+}
+
+.left-box {
+  background-color: black;
+  height: 3.2in;
+  width: 3in;
+  padding: .05in;
+}
+
+.title {
+  float: left;
+  font-family: Langdon;
+  font-size: 24pt;
+  color: white;
+  padding-left: .1in;
+  padding-right: .1in;
+  display: block;
+  width: 3in;
+}
+
+.price {
+  color: white;
+  font-family: "Langdon";
+  display: flex;
+  margin-top: -.1in;
+} 
+
+.sign {
+  display: block;
+  font-size: 45pt;
+  font-style: italic;
+  padding-bottom: .25in;  
+  margin-top: .1in;
+}
+
+.dollars {
+  display: block;
+  font-size: 80pt;
+  font-style: italic;
+  letter-spacing:-.06em;
+  position: relative;
+  left: -.1in;
+}
+
+.cents {
+  display: block;
+  font-size: 45pt;
+  text-decoration: underline;
+  font-style: italic;
+  margin-top: .1in;
+  margin-left: .1in;
+}
+
+.desc {
+  color: white;
+  margin-top: 0in;
+  font-family: 'Cambria';
+  font-style: italic;
+  font-size: 13pt;
+  text-align: justify;
+  text-justify: inter-word;
+  padding-left: .1in;
+  padding-right: .1in;
+}
+
+.lists, .singles {
+  margin-top: .05in;
+  font-size: 13pt;
+}
+
+.single-result, .list-items {
+  color: #555555;
+  font-style: italic;
+}
+
+.list-items{
+  margin-left: .1in;
+}
+
+#department {
+  font-size: 16pt;
+  margin-bottom: .1in;
+}
+.codes {
+  cursor: pointer;
+}
+@media print{
+  .codes{
+    display: none;
+  }
+}

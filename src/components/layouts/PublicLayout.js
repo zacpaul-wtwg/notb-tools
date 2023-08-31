@@ -1,15 +1,18 @@
-// File: src/components/layouts/PublicLayout.js
+// File: src/components/Layout.js
 
-function PublicLayout({ children }) {
+import Navigation from "@ui/Navigation"
+import { Container } from "@mui/material"
+
+function Layout({ children }) {
 	return (
 		<div>
-			<header>Public Header</header>
-			<div className="w-[960px] mx-auto px-4 bg-red-500">
+			<Navigation />
+			<Container maxWidth="lg">
 				<main>{children}</main>
-			</div>
-			<footer>Public Footer</footer>
+			</Container>
+			<footer>{/* Your footer content */}</footer>
 		</div>
 	)
 }
 
-export default PublicLayout
+export default Layout
